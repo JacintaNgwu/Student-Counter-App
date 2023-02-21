@@ -1,0 +1,140 @@
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/School.jpg);
+  background-size: cover;
+}
+
+#header {
+  background: #3e3e3e;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 5vh;
+}
+
+.navbar {
+  width: 35%;
+}
+
+.navbar .navlinks {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #fff;
+}
+
+.navbar .icon {
+  list-style: none;
+  padding: 0;
+}
+
+.navba {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 5px 10px brown;
+  padding: 20px 80px;
+  width: 100%;
+  height: 10vh;
+}
+
+.text {
+  position: relative;
+  display: flex;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+.s,
+.d,
+.l,
+.t,
+.e,
+.r {
+  color: #4cc9f0;
+  text-shadow: 0 3px #4361ee, 0 5px #4361ee, 0 7px #4361ee;
+}
+
+.c,
+.o,
+.u,
+.n {
+  color: #f72585;
+  text-shadow: 0 3px #7209b7, 0 5px #7209b7, 0 7px #7209b7;
+}
+
+.container {
+  background: papayawhip;
+  max-width: 60%;
+  height: 60vh;
+  margin-top: 100px;
+  margin-inline: 500px;
+  border: 5px solid #3e3e3e;
+  border-radius: 15px;
+}
+
+h1,
+h2 {
+  margin: 20px;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  margin-inline: 150px;
+  color: #fff;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#increment-btn {
+  background: darkred;
+  margin-bottom: 30px;
+}
+
+#save-btn {
+  background: darkblue;
+}
+
+#save-el {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(91, 91, 141);
+  color: white;
+  padding: 13px;
+  text-align: center;
+}
