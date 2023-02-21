@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live demo]()
+[Live demo](https://jacintangwu.github.io/Student-Counter-App/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
