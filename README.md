@@ -83,7 +83,7 @@ Clone this repository to your desired folder:
 
 ["git clone"](https://github.com/JacintaNgwu/Student-Counter-App.git)
 
-`cd Metrics-webapp`
+`cd Student-Counter-App`
 ### Install
 
 Install this project with:
